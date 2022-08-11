@@ -3,7 +3,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	background-color: black;
-	color: goldenrod;	
+	/*color: goldenrod;	*/
 }
 
 ul {
@@ -27,7 +27,7 @@ ul {
 }
 .cabecera .datos .datos_contacto li{
 	font-size: 20px;
-	color: black;
+	color: goldenrod;
 	width: 20%;
 	display: inline-block;
 }
@@ -56,8 +56,8 @@ a:hover {
 
 .relleno {
 	text-align: center;
+	color: goldenrod;
 }
-
 
 h1 {
 	color: goldenrod;
@@ -80,7 +80,7 @@ p {
 
 .boton {
 	font-family: 'Edu QLD Beginner', cursive;
-	font-size: 40px;
+	font-size: 10px;
 }
 
 h2 {
