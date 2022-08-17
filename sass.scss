@@ -1,0 +1,115 @@
+body {	
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+	/*color: goldenrod;	*/
+}
+
+ul {
+	padding: 15px;
+	margin-left: 15px;
+	list-style: none;
+}
+
+.cabecera {
+
+	.logo {
+		text-align: center;
+		padding-top: 30p
+	}
+
+	.datos {
+		font-size: 0px;
+		padding: 10px;
+				
+			.datos_contacto{
+
+				li {
+					font-size: 20px;
+					color: goldenrod;
+					width: 20%;
+					display: inline-block;
+				}
+			}
+	}
+
+	.menu {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 0px;
+		padding-left: 0px;
+
+			li {
+				padding: 20px;
+				width: 150px;
+			}
+	}
+}
+
+a {
+	color: goldenrod;
+	font-size: 20px;
+	font-family: 'Cormorant SC', serif;
+}
+
+a:hover {
+	color: blue;
+}
+
+
+h1 {
+	color: goldenrod;
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	font-weight: initial;
+}
+
+h3 {
+	
+	color: goldenrod;
+	font-family: 'Edu QLD Beginner', cursive;
+	font-size: 30px;
+}
+
+p {
+	font-family: 'Edu QLD Beginner', cursive;
+	font-size: 40px;
+}
+
+h2 {
+	color: goldenrod;
+	font-family: 'Edu QLD Beginner', cursive;
+	font-size: 30px;
+}
+
+.pie {
+	display: flex;
+	justify-content: center;
+}
+
+.cabeceragrid {
+
+	.menugrid {
+		display: grid;
+		grid-template-columns: 20% 20% 20% 20% 20%;
+		margin-left: 10%;
+	}
+}
+
+.piegrid {
+	display: grid;
+	grid-template-columns: 12% 12% 12% 12% 12% 12% 12% 12%;
+	margin-left: 4%;
+}
+
+.relleno {
+	text-align: center;
+	color: goldenrod;
+}
+
+.fotos {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25% ;
+	margin-left: 10%
+}
+		
